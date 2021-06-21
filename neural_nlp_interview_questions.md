@@ -69,7 +69,7 @@ Sources: <br>
  
  </details>
  
- <details> <summary>4. What are some of the typical set of hyperparameters tuned in a NN?</summary>
+ <details> <summary>4. What are some of the typical set of <code>hyperparameters</code> tuned in a NN?</summary>
  
  - #hidden layers
  - #hidden units in each layer
@@ -80,4 +80,12 @@ Sources: <br>
  - learning rate
  - choice of regularization techniques
  
+ </details>
+ 
+ <details> <summary>5. What are the different <code>text representation models</code> employed in NLP?</summary>
+ 
+Source: 
+ - A Comprehensive Survey on Word Representation Models: From Classical to State-Of-The-Art Word Representation Language Models https://arxiv.org/pdf/2010.15036v1.pdf <br>
+ - Evolution of Transfer Learning in Natural Language Processing Paper: https://arxiv.org/pdf/1910.07370.pdf
+
  </details>
