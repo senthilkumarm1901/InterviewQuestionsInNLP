@@ -24,7 +24,7 @@ reference [here](https://stats.stackexchange.com/questions/126238/what-are-the-a
 (to create math equations like above use [this link](https://www.codecogs.com/latex/eqneditor.php)) <br>
  </details>
 
-<details> <summary>2. What is hyperbolic tangent (`tanh`) preferred more than sigmoid activation function in NN? </summary>
+<details> <summary>2. Why is hyperbolic tangent (`tanh`) preferred more than sigmoid activation function in NN? </summary>
 <br>
  
  ![sigmoid-vs-tanh](https://i.stack.imgur.com/o0JA0.png) <br>
@@ -34,4 +34,3 @@ reference [here](https://stats.stackexchange.com/questions/126238/what-are-the-a
  
  reference [here](https://stats.stackexchange.com/questions/330559/why-is-tanh-almost-always-better-than-sigmoid-as-an-activation-function)
  </details>
-  
