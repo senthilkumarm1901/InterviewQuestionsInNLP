@@ -20,9 +20,11 @@ Also, gradient of sigmoid is atmost 0.25. So if there are many layers in NN, you
 - But dying relu is a problem. if too many activations get below zero then most of the units(neurons) in network with Relu will simply output zero, in other words, die and thereby prohibiting learning.(This can be handled, to some extent, by using Leaky-Relu instead.) <br>
 P.S
 <br>
-reference [here](https://stats.stackexchange.com/questions/126238/what-are-the-advantages-of-relu-over-sigmoid-function-in-deep-neural-networks) <bR>
-(to create math equations like above use [this link](https://www.codecogs.com/latex/eqneditor.php)) <br>
- </details>
+
+- Refer [here](https://stats.stackexchange.com/questions/126238/what-are-the-advantages-of-relu-over-sigmoid-function-in-deep-neural-networks) 
+- (to create math equations like above use [this link](https://www.codecogs.com/latex/eqneditor.php)) 
+ 
+</details>
 
 <details> <summary>2. Why is hyperbolic tangent (`tanh`) preferred more than sigmoid activation function in NN? </summary>
 <br>
