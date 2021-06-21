@@ -39,3 +39,45 @@ P.S
  
  reference [here](https://stats.stackexchange.com/questions/330559/why-is-tanh-almost-always-better-than-sigmoid-as-an-activation-function)
  </details>
+
+ 
+ <details> <summary>3. What are the differences between <code>L1</code> and <code>L2</code> regularization techniques? When do we use <code>dropout</code> ?</summary>
+<br>
+ - All 3 techiques lead to simpler NNs. Hence, more `generalizable` <br>
+ - `cost_function` = `Loss` + `Regularization` <br>
+ - Regularization: <br>
+ `L2` (Ridge) Regularization: <br>
+ 
+ ![](https://cdn.analyticsvidhya.com/wp-content/uploads/2018/04/Screen-Shot-2018-04-04-at-1.59.54-AM.png) <br>
+ `L1` (Lasso) Regularization: <br>
+ 
+ ![](https://cdn.analyticsvidhya.com/wp-content/uploads/2018/04/Screen-Shot-2018-04-04-at-1.59.57-AM.png) <br>
+ 
+> From a practical standpoint, L1 tends to shrink coefficients to zero whereas L2 tends to shrink coefficients evenly. L1 is therefore useful for **feature selection**, as we can drop any variables associated with coefficients that go to zero. L2, on the other hand, is useful when you have collinear/codependent features. (An example pair of codependent features is `gender` and `ispregnant` since only females can be `ispregnant`.)
+
+ <br>
+ 
+> `Dropout` also simplifies NNs and is the most frequently used regularization technique in the field of deep learning (because it yields better results)
+<br>
+ 
+> The probability of choosing how many nodes should be dropped is the hyperparameter of the dropout function.
+ 
+Sources: <br> 
+- https://explained.ai/regularization/L1vsL2.html <br>
+- https://www.analyticsvidhya.com/blog/2018/04/fundamentals-deep-learning-regularization-techniques/
+ 
+ 
+ </details>
+ 
+ <details> <summary>4. What are some of the typical set of hyperparameters tuned in a NN?</summary>
+ 
+ - #hidden layers
+ - #hidden units in each layer
+ - #iterations (or epoch size)
+ - #mini-batch size
+ - choice of activation fn (e.g.: relu, tanh, etc.,)
+ - choice of optimizer (e.g.: sgd, asgd, rmsprop,momentum, adam, etc.,)
+ - learning rate
+ - choice of regularization techniques
+ 
+ </details>
