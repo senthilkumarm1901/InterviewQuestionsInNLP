@@ -2,7 +2,7 @@
 
 The following questions are prepared primarily from he teachings of `deeplearning.ai coursera specialization`:
 
-<details> <summary>1. What is the advantage of `relu` over `sigmoid` activation function in neural network?</summary>
+<details> <summary>1. What is the advantage of <code>relu</code> over <code>sigmoid</code> activation function in neural network?</summary>
 <br>
 Ans: Relu can help in faster gradient descent compared to sigmoid. Relu does NOT have the expensive **exponential function** to compute like that of sigmoid
 Also, gradient of sigmoid is atmost 0.25. So if there are many layers in NN, you will multiply these gradients, and the product of many smaller than 1 values goes to zero very quickly (vanishing gradient). <br>   
@@ -29,7 +29,7 @@ P.S
  
 </details>
 
-<details> <summary>2. Why is hyperbolic tangent (`tanh`) preferred more than sigmoid activation function in NN? </summary>
+<details> <summary>2. Why is hyperbolic tangent (<code>tanh</code>) preferred more than sigmoid activation function in NN? </summary>
 <br>
  
  ![sigmoid-vs-tanh](https://i.stack.imgur.com/o0JA0.png) <br>
