@@ -9,20 +9,23 @@ Also, gradient of sigmoid is atmost 0.25. So if there are many layers in NN, you
 <br>
 
 **Some facts:** <br> 
-<img src="https://latex.codecogs.com/gif.latex?sigmoid(x)=\frac{1}{1&plus;e^{-x}}" title="sigmoid(x)=\frac{1}{1+e^{-x}}" /> <br>
-<img src="https://latex.codecogs.com/gif.latex?relu(x)=max(0,x)" title="relu(x)=max(0,x)" /> <br>
+![](./docs/sigmoid.png) <br>
+![](./docs/relu.png) <br>
 - sigmoid value ranges from `0 to 1` (when x tends to minus infinity, denominator becomes too huge, hence value will be close to 0) <br>
-- As x increases, sigmoid(x) tends to 1 and derivative of sigmoid(x) tends to 0 (iow: the gradient of sigmoids becomes increasingly small as the absolute value of x increases.) <br>
-<img src="https://latex.codecogs.com/gif.latex?sigmoid'(x)&space;=&space;S'(x)&space;=&space;S(x)(1-&space;S(x))" title="sigmoid'(x) = S'(x) = S(x)(1- S(x))" /> <br>
-<img src="https://latex.codecogs.com/gif.latex?if&space;S(x)&space;==&space;1,&space;S'(x)&space;=&space;1&space;(1-1)&space;=&space;0" title="if S(x) == 1, S'(x) = 1 (1-1) = 0" /> <br>
+- As x increases, sigmoid(x) tends to 1 and derivative of sigmoid(x) tends to 0 (the gradient of sigmoids becomes increasingly small as the absolute value of x increases.) <br>
+![](./docs/first_derivative_of_sigmoid(1).png) <br>
+![](./docs/first_derivative_of_sigmoid(2).png) <br>
+ 
 - relu value ranges from 0 to no upper limit! <br>
 - gradient of relu is always a constant (because derivative of x over x is 1). Hence multiplying gradients will not explode it. The constant gradient of ReLUs results in faster learning. <br>
 - But dying relu is a problem. if too many activations get below zero then most of the units(neurons) in network with Relu will simply output zero, in other words, die and thereby prohibiting learning.(This can be handled, to some extent, by using Leaky-Relu instead.) <br>
 P.S
 <br>
 
-- Refer [here](https://stats.stackexchange.com/questions/126238/what-are-the-advantages-of-relu-over-sigmoid-function-in-deep-neural-networks) 
-- (to create math equations like above use [this link](https://www.codecogs.com/latex/eqneditor.php)) 
+- Refer [here](https://stats.stackexchange.com/questions/126238/what-are-the-advantages-of-relu-over-sigmoid-function-in-deep-neural-networks) for detailed discussion
+- (to create math equations like above use [this link](http://mathurl.com/)) 
+ 
+ ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
  
 </details>
 
