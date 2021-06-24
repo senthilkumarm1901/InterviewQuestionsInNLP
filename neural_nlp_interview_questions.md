@@ -84,8 +84,20 @@ Sources: <br>
  
  <details> <summary>5. What are the different <code>text representation models</code> employed in NLP?</summary>
  
+TBD <br>
 Source: 
  - A Comprehensive Survey on Word Representation Models: From Classical to State-Of-The-Art Word Representation Language Models https://arxiv.org/pdf/2010.15036v1.pdf <br>
  - Evolution of Transfer Learning in Natural Language Processing Paper: https://arxiv.org/pdf/1910.07370.pdf
 
  </details>
+ 
+ 
+  </details>
+ 
+ <details> <summary>6. Why adding more layers is better than adding more neurons in a single layer in NN?</summary>
+ 
+ 
+TBD <br>
+ Source: 
+ - https://www.quora.com/What-is-a-difference-between-adding-one-more-layer-and-increasing-neurons-in-one-layer
+  </details>
