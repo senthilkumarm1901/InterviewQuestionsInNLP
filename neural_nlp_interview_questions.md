@@ -1,7 +1,5 @@
 # Questions related to Neural Networks built for NLP Applications
 
-The following questions are prepared primarily from he teachings of `deeplearning.ai coursera specialization`:
-
 <details> <summary>1. What is the advantage of <code>relu</code> over <code>sigmoid</code> activation function in neural network?</summary>
 <br>
 Ans: Relu can help in faster gradient descent compared to sigmoid. Relu does NOT have the expensive **exponential function** to compute like that of sigmoid
