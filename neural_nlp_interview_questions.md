@@ -83,7 +83,7 @@ Sources: <br>
  </details>
  
  <details> <summary>5. What are the different <code>text representation models</code> employed in NLP?</summary>
- 
+ <br>
 TL;DR version from Source [1]
  - I) Categorical word representation (e.g.: One-hot Encoding/ Bag of words) <br> 
  - II) Weighted Word representation (e.g.: TF-IDF) <br>
@@ -94,15 +94,15 @@ TL;DR version from Source [1]
      - c. Transformer-based Pre-trained Language Models (not exhaustive) <br>
          - Universal Sentence Encoder (version made from Transformer Encoder)     
          - GPT1, 2 and 3 (OpenAI Transformer) <br>
-			      - Bidirectional Encoder Representations from Transformers (BERT) <br>
-			      - XLNet <br>
-			      - ALBERT <br>
-			      - RoBERTa <br>
-			      - StructBERT <br>
-			      - DistillBERT <br>
-			      - MegatronLM <br>
-			      - Ernie and Ernie 2.0 <br>
-			      - BART <br>
+         - Bidirectional Encoder Representations from Transformers (BERT) <br>
+         - XLNet <br>
+         - ALBERT <br>
+         - RoBERTa <br>
+         - StructBERT <br>
+         - DistillBERT <br>
+         - MegatronLM <br>
+         - Ernie and Ernie 2.0 <br>
+         - BART <br>
          - T5 (Text2Text Transfer Transformer) <br>
 
 Source: 
@@ -110,9 +110,6 @@ Source:
  - Evolution of Transfer Learning in Natural Language Processing Paper: https://arxiv.org/pdf/1910.07370.pdf
 
  </details>
- 
- 
-  </details>
  
  <details> <summary>6. Why adding more layers is better than adding more neurons in a single layer in NN?</summary>
  
@@ -124,5 +121,5 @@ Source:
  
  Source: 
  - [1] https://www.quora.com/What-is-a-difference-between-adding-one-more-layer-and-increasing-neurons-in-one-layer
- - https://www.quora.com/Why-do-neural-networks-with-more-layers-perform-better-than-a-single-layer-MLP-with-a-number-of-neurons-that-leads-to-the-same-number-of-parameters
+ - [2] https://www.quora.com/Why-do-neural-networks-with-more-layers-perform-better-than-a-single-layer-MLP-with-a-number-of-neurons-that-leads-to-the-same-number-of-parameters
   </details>
