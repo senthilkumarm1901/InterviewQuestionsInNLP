@@ -84,9 +84,29 @@ Sources: <br>
  
  <details> <summary>5. What are the different <code>text representation models</code> employed in NLP?</summary>
  
-TBD <br>
+TL;DR version from Source [1]
+ - I) Categorical word representation (e.g.: One-hot Encoding/ Bag of words) <br> 
+ - II) Weighted Word representation (e.g.: TF-IDF) <br>
+ (both I and II suffer from the curse of high dimensionality; dimension length = vocab length) <br>
+ - III) Representation Learning (trained based on a Self-supervised Learning technique like Language Model) <br>
+     - a. Distributed Representations (e.g.: Word2Vec, FastText, GloVe) <br>
+     - b. Contextual Embeddings (before Transformer) (e.g.: ULMFiT, ELMo, Context2Vector, USE made from Deep Averaging Networks) <br>
+     - c. Transformer-based Pre-trained Language Models (not exhaustive) <br>
+         - Universal Sentence Encoder (version made from Transformer Encoder)     
+         - GPT1, 2 and 3 (OpenAI Transformer) <br>
+			      - Bidirectional Encoder Representations from Transformers (BERT) <br>
+			      - XLNet <br>
+			      - ALBERT <br>
+			      - RoBERTa <br>
+			      - StructBERT <br>
+			      - DistillBERT <br>
+			      - MegatronLM <br>
+			      - Ernie and Ernie 2.0 <br>
+			      - BART <br>
+         - T5 (Text2Text Transfer Transformer) <br>
+
 Source: 
- - A Comprehensive Survey on Word Representation Models: From Classical to State-Of-The-Art Word Representation Language Models https://arxiv.org/pdf/2010.15036v1.pdf <br>
+ - [1] A Comprehensive Survey on Word Representation Models: From Classical to State-Of-The-Art Word Representation Language Models https://arxiv.org/pdf/2010.15036v1.pdf <br>
  - Evolution of Transfer Learning in Natural Language Processing Paper: https://arxiv.org/pdf/1910.07370.pdf
 
  </details>
@@ -97,7 +117,12 @@ Source:
  <details> <summary>6. Why adding more layers is better than adding more neurons in a single layer in NN?</summary>
  
  
-TBD <br>
+[1] Yoshua Bengio Explanation <br>
+> Adding a layer increases the depth, and allows the network to represent more complex, more non-linear functions, *which might otherwise not be representable efficiently by a less deep network*
+ 
+[2] NNs with many layers perform significantly better than NNs with a single layer (of equal no. of parameters) because of more non-linearity in the NN with many layers
+ 
  Source: 
- - https://www.quora.com/What-is-a-difference-between-adding-one-more-layer-and-increasing-neurons-in-one-layer
+ - [1] https://www.quora.com/What-is-a-difference-between-adding-one-more-layer-and-increasing-neurons-in-one-layer
+ - https://www.quora.com/Why-do-neural-networks-with-more-layers-perform-better-than-a-single-layer-MLP-with-a-number-of-neurons-that-leads-to-the-same-number-of-parameters
   </details>
