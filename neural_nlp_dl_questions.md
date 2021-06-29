@@ -1,4 +1,4 @@
-# Questions related to Neural Networks built for NLP Applications
+# Questions related to Neural Networks
 
 <details> <summary>1. What is the advantage of <code>relu</code> over <code>sigmoid</code> activation function in neural network?</summary>
 <br>
