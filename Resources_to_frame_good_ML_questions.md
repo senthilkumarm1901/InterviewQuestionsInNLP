@@ -48,3 +48,7 @@ Good fit – Validation error low, slightly higher than the training error
 
 Unknown fit - Validation error low, training error 'high'
 ```
+
+A good resource on questions, processes and preparation for Machine Learning Interviews by Khang Pham. <br>
+- Web page: https://mlengineer.io/
+- GitHub: https://lnkd.in/dcCGw35F
